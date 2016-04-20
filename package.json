@@ -38,6 +38,7 @@
     "less-loader": "2.2.2",
     "lodash": "4.6.1",
     "npm": "3.8.1",
+    "phantomjs-prebuilt": "2.1.7",
     "raw-loader": "0.5.1",
     "style-loader": "0.13.1",
     "uikit": "2.26.1",
@@ -47,6 +48,7 @@
     "webpack-dev-server": "1.14.1"
   },
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "test": "karma start karma.conf.js"
   }
 }
